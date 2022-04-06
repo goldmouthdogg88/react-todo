@@ -3,7 +3,6 @@ import Todo from "./components/Todo";
 import Form from "./components/Form";
 import Title from "./components/Title";
 import "./App.css";
-
 const initialData = [
   {
     _id: 0,
@@ -19,14 +18,30 @@ const initialData = [
   },
 ];
 
+const otherData = [
+  {
+    _id: 3,
+    text: "hack the goverment",
+  },
+  {
+    _id: 4,
+    text: "have a fishy stick",
+  },
+  {
+    _id: 5,
+    text: "drop LSD",
+  },
+];
 const App = () => {
   const [inputValue, setInputValue] = useState("");
-  const [todos, setTodos] = useState(initialData);
-
+  const [todos, setTodos] = useState(initialData); // sets the inital state of todos with initalData's values
+  const [otherTodos, setOtherTodos] = useState(otherData);
   const handleSubmit = () => {
     if (inputValue === "") return;
     const newTodo = { _id: Date.now(), text: inputValue };
-    setTodos([...todos, newTodo]);
+
+    // setTodos([...todos, newTodo]);
+    setOtherTodos([...otherTodos, newTodo]);
     setInputValue("");
   };
 

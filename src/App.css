@@ -6,7 +6,7 @@
   /* background-color: #9fe7d8; */
   height: 100%;
   padding: 50px;
-  color: ;
+
 }
 
 .todolist {
@@ -15,7 +15,7 @@
 }
 
 .title {
-  color: ;
+
 }
 
 .form {
@@ -25,7 +25,7 @@
 .input {
   background-color: transparent;
   border: 2px solid ;
-  color: ;
+
   padding: 10px;
   border-radius: 6px;
   font-size: 22px;
@@ -35,7 +35,7 @@
 .submit {
   background-color: transparent;
   border: 2px solid ;
-  color: ;
+  
   padding: 10px;
   border-radius: 6px;
   font-size: 22px;
@@ -45,7 +45,7 @@
 }
 
 .submit:hover {
-  background-color: ;
+  background-color: black;
   border: 2px solid ;
   color: #fcfcfc;
   padding: 10px;
@@ -56,7 +56,7 @@
   margin-top: 8px;
   background-color: transparent;
   border: 2px solid ;
-  color: ;
+  
   padding: 10px;
   border-radius: 6px;
   font-size: 22px;
